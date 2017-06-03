@@ -1,0 +1,148 @@
+body{
+  font-family: sans-serif;
+}
+.topBar{
+  display: inline-block;
+  border-top: 25px;
+  color: tomato;
+}
+.topBarImg{
+  height: 30px;
+  float: left;
+}
+.topList li a{
+  display: inline-block;
+  text-align: left;
+  float: left;
+  color: tomato;
+  text-decoration: none;
+}
+.toolbar {
+display: inline-block;
+}
+.sideList li a{
+  display: inline-block;
+  text-align: left;
+  float: left;
+  color: tomato;
+  text-decoration: none;
+}
+.middle{
+  overflow: auto;
+  background-color: tomato;
+  padding: 60px;
+}
+.middleAnchor{
+  text-align: left;
+  color: white;
+  text-decoration: none;
+}
+.middleImage{
+
+  float: left;
+
+}
+.middleContent{
+  color: white;
+  text-align: right;
+}
+.middleHeader{
+  text-align: right;
+}
+.middleHeaderP{
+  color: #A93226;
+  border-bottom: dotted #A93226;
+}
+.middleDis{
+  color: white;
+  text-align: right;
+  border-bottom: dotted #A93226;
+}
+.middleDis a{
+  color: #A93226;
+  text-decoration: none;
+}
+.middleButton{
+  text-align: right;
+}
+.middleButton a{
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+
+
+
+.productionheader{
+  color: tomato;
+  word-spacing: 2em;
+}
+.sizeandfit{
+
+  display: inline;
+}
+.productionDetails{
+  background-color: white;
+  color: black:
+}
+.Header{
+  text-align: center;
+  background-color: mistyrose;
+  color: black;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 20px;
+}
+.shoeOptions {
+  background-color: tomato;
+  color: white;
+  float: left;
+  font-size: 12px;
+  border: 5px;
+}
+.sneaker{
+  padding: 50px;
+  display: inline-block;
+}
+.sneakerImage{
+height: 200px;
+}
+
+.sneakerDis{
+
+}
+.sneakerName{
+  text-align: left;
+}
+.sneakerName p{
+  color: #A93226;
+}
+
+.sneakerPrice{
+  color: white;
+  float: : right;
+  text-decoration: none;
+}
+
+.footer{
+  position: absolute;
+  background-color: white;
+  color: brown;
+}
+.footer img{
+  float: left;
+  height: 30px;
+}
+.bottomList li{
+  display: inline-block;
+  color: tomato;
+  text-decoration: none;
+}
+.rightside{
+  text-align: right;
+}
+ul{
+  list-style-type: none;
+}
