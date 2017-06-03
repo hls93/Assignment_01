@@ -2,7 +2,24 @@ body{
   font-family: sans-serif;
 }
 
+header{
+  padding: 20px;
+}
 
+.topBarImg{
+  height: 30px;
+}
+
+.topBar{
+  display: flex;
+}
+
+.topList a{
+  vertical-align: middle;
+  text-decoration: none;
+  color: tomato;
+  padding: 10px;
+}
 
 .sideList{
   display: block;
