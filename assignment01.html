@@ -9,123 +9,155 @@
 
 <body>
   <header>
-      <div class="topBar">
-      <img class="topBarImg" src="images/logo.jpg" alt="logo">
-        <nav class="topList">
-          <a href="#">Mens</a>
-          <a href="#">Women</a>
-          <a href="#">Girls</a>
-          <a href="#">Boys</a>
-          <a href="#">Customize</a>
-        </nav>
-      </div>
-      <div class="toolbar">
-        <nav class="sideList">
-            <a href="#">Home</a>
-            <a href="#">My Account</a>
-            <img src="images/cart.jpg">
-            <a href="#">Shopping Cart</a>
-        </nav>
-    </div>
-  </header>
+  <div class="header">
+      <nav class="primaryNav">
+        <ul>
+          <li><img src="images/logo.jpg" width="60px" alt="logo"></li>
+          <li><a href="#">MEN</a></li>
+          <li><a href="#">WOMEN</a></li>
+          <li><a href="#">GIRLS</a></li>
+          <li><a href="#">BOYS</a></li>
+          <li><a href="#">CUSTOMIZE</a></li>
+        </ul>
+      </nav>
 
-    <div class="middle">
-      <div class="middleAnchor">
-        <a href="#">back to all shoes</a>
-      </div>
-      <div class="middleImage">
-        <img src="images/shoe1.png" alt="shoe1">
-      </div>
-      <div class="middleContent">
-        <div class="middleHeader">
-          <h1>Quick Sneakers</h1>
-        </div>
-        <div class="middleHeaderP">
-            <p>Spring/Summer 2017</p>
-        </div>
-      </div>
-      <div class="middleDis">
-        <p> This is a description of the shoe that you see.
-        it is a very nice shoe.</p>
-        <a href="#"> read the reviews </a>
-      </div>
-      <div class="middleButton">
-        <a href="#"> $120</a>
-        <button>Buy Now!</button>
-      </div>
+      <nav class="secondaryNav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Account</a></li>
+          <li><img src="images/cart.jpg"></li>
+          <li><a href="#">
+            Shopping Cart
+            <div class="cartCount">
+              0
+            </div>
+          </a></li>
+        </ul>
+      </nav>
+  </div>
+</header>
+
+<div class="body1">
+  <div class="caption">
+    <div class="middleAnchor">
+      <a href="#">back to all shoes</a>
+    </div>
+
+    <div class="middleImage">
+      <img src="images/shoe1.png"  height="250" alt="shoe1">
+    </div>
   </div>
 
-<div class="productionHeader">
-   <span>Production Details</span>
-</div>
-<div class="sizeandfit">
-   <span>Size and Fit</span>
-</div>
-<hr>
+  <div class="middleContent">
+    <div class="middleHeader">
+      <h1>Quick Sneakers</h1>
+      <p>Spring/Summer 2017</p>
+    </div>
 
+    <div class="middleDis">
+      <p> Check out the cool shoes that we sell.</p>
+      <a href="#"> read the reviews </a>
+    </div>
+    <div class="price">
+      <a href="#"> $120</a>
+      <button  class="middleButton">Buy Now!</button>
+    </div>
+  </div>
 </div>
+
+  <div class="productionHeader">
+   <nav class="centerPn">
+     <ul>
+       <li><p>Product Details</p></li>
+       <li><p>Size and Fit</p></li>
+     </ul>
+   </nav>
+   <nav class="reviews">
+     <ul>
+       <li><p>Reviews</p></li>
+       <li><p>Stars</p></li>
+     </ul>
+  </div>
+
       <section class="productionDetails">
-        <h1>Exciting topic!</h1>
+        <h1>Exciting topic</h1>
         <p> content here </p>
         <h1>Find your shoe size and fit</h1>
         <p> content here </p>
         <h1>What our customers are saying!</h1>
-        <p> content here</p>
+        <p> Don't take our word for it!
+          Read what our customers have been
+          saying about this product. we guaruntee you won't
+          be dissapointed in this purchase.</p>
       </section>
-<div class="Header">
+
+    <div class="Header">
         <h1> Shop Reccomended Shoes</h1>
-</div>
-
-
-<div class="shoeOptions">
-  <div class="sneaker">
-    <img class="sneakerImage" src="images/shoe2.png"
-    alt="shoe2">
-    <div class="sneakerDis">
-    <div class="sneakerName">
-      <h1>Funny Sneaker</h1>
-      <p>Spring/Summer 2017</p>
     </div>
-     <a class="sneakerPrice" href="#"> $120.00</a>
-   </div>
-  </div>
-  <div class="sneaker">
-      <img class="sneakerImage" src="images/shoe3.png"
-      alt="shoe3">
-      <div class="sneakerName">
-        <h1>Nimble Shoes</h1>
-        <p>Spring/Summer 2017</p>
-      </div>
-      <a class="sneakerPrice" href="#"> $120.00</a>
-  </div>
-  <div class="sneaker">
-      <img class="sneakerImage" src="images/shoe4.png"
-      alt="shoe4">
-      <div class="sneakerName">
-        <h1>CuteSneaker</h1>
-        <p>Spring/Summer 2017</p>
-      </div>
-      <a class="sneakerPrice" href="#"> $120.00</a>
-  </div>
-</div>
 
-<footer class="footer">
-  <img src="images/logo.jpg "alt="logo">
-  <section class="BottomToolbar">
-    <ul class="bottomList">
-      <li><a href="#">Men</a></li>
-      <li><a href="#">Women</a></li>
-      <li><a href="#">Girls</a></li>
-      <li><a href="#">Boys</a></li>
-      <li><a href="#">Customize</a></li>
-    </ul>
-  </section>
-  <div class="rightside">
-    <a href="#"> shipping terms and conditions</a>
-    <span> Copyright 2017. Sneaker Shop LLC.</span>
+
+  <div class="shoeOptions">
+    <div class="threeOptions">
+      <div class="sneaker">
+        <img class="sneakerImage" src="images/shoe2.png"
+        alt="shoe2">
+        <div class="description">
+          <div class="sneakerName">
+            <h1>Funny Sneaker</h1>
+          </div>
+          <div class="sneakerPrice">
+            <a class="sneakerPrice" href="#"> $120.00</a>
+          </div>
+          <div class="subTitle">
+            <p>Spring/Summer 2017</p>
+          </div>
+        </div>
+      </div>
+      <div class="sneaker">
+        <img class="sneakerImage" src="images/shoe3.png"
+          alt="shoe3">
+        <div class="sneakerName">
+            <h1>Nimble Shoes</h1>
+            <p>Spring/Summer 2017</p>
+        </div>
+          <a class="sneakerPrice" href="#"> $120.00</a>
+      </div>
+      <div class="sneaker">
+        <img class="sneakerImage" src="images/shoe4.png"
+        alt="shoe4">
+        <div class="sneakerName">
+          <h1>Cute Sneaker</h1>
+          <p>Spring/Summer 2017</p>
+        </div>
+          <a class="sneakerPrice" href="#"> $120.00</a>
+      </div>
+    </div>
   </div>
-</div>
+
+<footer>
+  <div class="footer">
+    <nav class="bottomprimaryNav">
+      <ul>
+        <li><img src="images/logo.jpg" width="60" alt="logo"></li>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">GIRLS</a></li>
+        <li><a href="#">BOYS</a></li>
+        <li><a href="#">CUSTOMIZE</a></li>
+      </ul>
+    </nav>
+    <nav class="bottomsecondaryNav">
+      <ul>
+        <li><a href="#"> Shipping</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><span> Copyright 2017. Sneaker Shop LLC.</span></li>
+      </ul>
+    </nav>
+  </div>
 </footer>
-
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="main1.js"></script>
 </body>
 </html>

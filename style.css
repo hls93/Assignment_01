@@ -1,101 +1,167 @@
 body{
   font-family: sans-serif;
+  font-weight: 100;
+  display: block;
 }
 
 header{
   padding: 20px;
+  margin: 30px;
+  width: auto;
 }
 
-.topBarImg{
-  height: 30px;
-}
-
-.topBar{
-  display: flex;
-}
-
-.topList a{
-  vertical-align: middle;
+li{
+  display: inline-block;
   text-decoration: none;
   color: tomato;
-  padding: 10px;
 }
 
-.sideList{
-  display: block;
-}
-
-.toolbar li a{
-  display: block;
-  text-align: right;
+.primaryNav{
   float: left;
-  color: tomato;
-  text-decoration: none;
+  word-spacing: 30px;
 }
 
-.middle{
-  overflow: auto;
-  background-color: tomato;
-  padding: 60px;
+.primaryNav img{
+  height 30px;
+}
+
+.primaryNav a{
+  text-decoration: none;
+  color: tomato;
+}
+
+.secondaryNav{
+  float: right;
+  word-spacing: 30px;
+}
+
+.secondaryNav a{
+  text-decoration: none;
+  color: tomato;
+}
+
+.body1{
+  overflow: hidden;
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  background: linear-gradient(to right, deeppink, tomato);
+}
+
+.caption{
+  vertical-align: top;
+  display: inline-block;
+  float: left
 }
 .middleAnchor{
-  text-align: left;
-  color: white;
+  position: absolute;
+  float: left;
+}
+
+.middleAnchor a{
   text-decoration: none;
+  color: white;
 }
 
 .middleImage{
+  position: relative;
   float: left;
+  padding: 20px;
 }
 
 .middleContent{
+  padding-left: 30px;
+  float: right;
+  width: 600px;
+  border: solid clear;
+
+}
+
+.middleHeader h1{
   color: white;
-  text-align: right;
+  font-size: 40px;
+  font-weight: 100;
 }
 
-.middleHeader{
-  text-align: right;
-}
-
-.middleHeaderP{
+.middleHeader p{
   color: #A93226;
+  display: table-cell;
   border-bottom: dotted #A93226;
+  text-align: left;
 }
 
-.middleDis{
+.middleDis p{
   color: white;
-  text-align: right;
-  border-bottom: dotted #A93226;
 }
 
 .middleDis a{
-  color: #A93226;
   text-decoration: none;
+  color:#A93226;
+  border-bottom: dotted #A93226;
+}
+
+.price{
+  padding: 50px;
+}
+
+.price a{
+  text-decoration: none;
+  color: white;
 }
 
 .middleButton{
-  text-align: right;
+  text-align: left;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  color: orangered;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /*font-size: 16px;*/
+  /*margin: 4px 2px;*/
+  /*cursor: pointer;*/
+  border-radius: 8px;
 }
 
 .middleButton a{
+  padding-right: 20px;
   color: white;
-  font-size: 16px;
+  font-size: 30px;
   font-weight: bolder;
   text-decoration: none;
 }
 
-.productionheader{
+.productionHeader{
+  display: inline-block;
   color: tomato;
-  word-spacing: 2em;
+  font-size: 20px;
+  border-bottom: solid tomato;
 }
 
-.sizeandfit{
-  display: inline;
+.centerPn{
+  float: left;
+}
+
+.reviews{
+  float: right;
 }
 
 .productionDetails{
+  padding-bottom: 60px;
   background-color: white;
   color: black:
+}
+
+.productionDetails h1{
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .Header{
@@ -107,61 +173,87 @@ header{
   padding: 20px;
 }
 
-.shoeOptions {
-  background-color: tomato;
+.shoeOptions{
+  padding-left: 100px;
+  padding-right: 50px;
+  overflow: hidden;
+  border: solid black;
+  background: linear-gradient(to right, #E91E63   , tomato);
   color: white;
-  float: left;
   font-size: 12px;
   border: 5px;
 }
 
-.sneaker{
+.threeOptions{
   padding: 50px;
-  display: inline-block;
+  border: solid transparent;
+  vertical-align: center;
+}
+.sneaker{
+  vertical-align: center;
+  border: solid transparent;
+  padding: 10px;
+  display: inline-block
 }
 
 .sneakerImage{
 height: 200px;
 }
 
-.sneakerDis{
+.desciption{
+  display: inline-block;
 }
 
 .sneakerName{
   text-align: left;
+  border: solid transparent;
 }
 
-.sneakerName p{
+.subTitle{
+  font-size: 15px;
   color: #A93226;
 }
 
 .sneakerPrice{
   color: white;
   float: : right;
+  font-size: 16px;
   text-decoration: none;
+}
+
+footer{
+  bottom: 0;
+  width: auto;
+  height: 60px;
+  padding: 20px;
+  border: 20px;
 }
 
 .footer{
-  position: absolute;
-  background-color: white;
-  color: brown;
 }
 
-.footer img{
-  float: left;
-  height: 30px;
-}
-
-.bottomList li{
+li{
   display: inline-block;
-  color: tomato;
   text-decoration: none;
+  color: tomato;
 }
 
-.rightside{
-  text-align: right;
+
+.bottomprimaryNav{
+  float: left;
+  word-spacing: 30px;
 }
 
-ul{
-  list-style-type: none;
+.bottomprimaryNav a{
+  text-decoration: none;
+  color: tomato;
+}
+
+.bottomsecondaryNav{
+  float: right;
+}
+
+.bottomsecondaryNav a{
+  text-decoration: none;
+  color: tomato;
 }

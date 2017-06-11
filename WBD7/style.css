@@ -1,0 +1,38 @@
+/*
+h1{
+  font-size: 14px;
+}
+
+@media (min-width: 760px){
+  h1{
+    font-size: 24px
+  }
+}
+
+@media(min-width: 992px){
+  h1{
+    font-size: 36px;
+  }
+}
+/*applies to all webpages under 740px. Put at bottom of css*/
+/*
+@media all and (min-width: 740px){
+  .container{
+    width: 70%auto;
+    margin: 0 autp;
+  }
+}
+*/
+
+.navigation ul{
+margin: 0;
+padding: 0;
+}
+
+.logo{
+  width: 50px;
+  float: left;
+  margin-right: 10px:
+}
+
+/*invision*/
